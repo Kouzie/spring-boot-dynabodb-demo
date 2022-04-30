@@ -1,0 +1,11 @@
+package com.demo.dynamodb;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoDynamodbApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DemoDynamodbApplication.class, args);
+    }
+}
